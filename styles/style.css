@@ -53,7 +53,7 @@ a {
 header {
   position: fixed;
   top: 0;
-  min-height: 75px;
+  min-height: 40px;
   padding: 0px 20px;
   display: flex;
   justify-content: space-around;
@@ -61,8 +61,9 @@ header {
   background-color: #eee;
 }
 
-.header img {
-    height: 20px;
+#header-img {
+  height:70px;
+  width:70px;
 }
 
 @media (max-width: 600px) {
@@ -73,6 +74,13 @@ header {
 
 .logo {
   width: 60vw;
+  display: flex;
+}
+
+.logo p {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 40px
 }
 
 @media (max-width: 650px) {
